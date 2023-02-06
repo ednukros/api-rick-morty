@@ -1,0 +1,7 @@
+<div class="characters" *ngIf="characterList">
+ <div *ngFor="let character of characterList" class="card">
+    <p>{{character.id}}</p>
+    <h3>{{character.name}}</h3>
+    <img src={{character.image}} alt={{character.name}} class="character-img">
+ </div>
+</div>
