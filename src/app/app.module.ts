@@ -15,7 +15,8 @@ import { HomeComponent } from './pages/home/home.component';
     CharacterComponent,
     CharacterDetailComponent,
     NavComponent,
-    HomeComponent
+    HomeComponent,
+
   ],
   imports: [
     BrowserModule,

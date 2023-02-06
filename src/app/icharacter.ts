@@ -4,6 +4,7 @@ export interface ICharacter {
     name: string;
     image: string;
     status: string;
+    species: string;
 }
 
 export interface CharacterResponseInterface {
@@ -17,3 +18,7 @@ export interface CharacterResponseInterface {
     results: ICharacter[];
 }
 
+
+export interface Location {
+    
+}
