@@ -1,0 +1,23 @@
+nav{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    justify-content: center;
+    padding-top: 30px;
+
+    a{
+        text-decoration: none;
+        color: whitesmoke;
+        font-size: 18px;
+        text-transform: uppercase;
+        border: 1px solid whitesmoke;
+        padding: 10px;
+        font-weight: bold;
+        border-radius: 10px;
+    }
+
+    a:hover {
+        background-color: whitesmoke;
+        color: #e66f28;
+    }
+}

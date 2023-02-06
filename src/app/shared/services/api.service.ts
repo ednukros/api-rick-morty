@@ -9,7 +9,7 @@ export class ApiService {
 
   constructor(private http: HttpClient) { }
 
-  getCharacters(): Observable<any> {
+  getCharacters() {
     return this.http.get('https://rickandmortyapi.com/api/character')
   }
 }

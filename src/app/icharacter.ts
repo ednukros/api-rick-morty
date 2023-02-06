@@ -3,6 +3,7 @@ export interface ICharacter {
     id: number;
     name: string;
     image: string;
+    status: string;
 }
 
 export interface CharacterResponseInterface {

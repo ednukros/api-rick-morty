@@ -18,24 +18,13 @@ export class CharacterComponent implements OnInit {
     this.api.getCharacters().subscribe((data:any) => {
       this.characterList = [...data.results]
       for (const el of data.results) {
-        console.log(el.name);
+        console.log(el.status);
         
       }
       
     })
   }
 
-  // ngOnInit(): void {
-  //   this.api.getCharacters().subscribe((data: CharacterResponseInterface) => {
-  //     const results: ICharacter[] = data.results.map(({ id, name, image }) => ({
-  //       id, name, image
-  //     }));
-  //     this.characterList = results;
-  //     console.log(results);
-      
-  //   }
-  //   )
-   
-  // }
+
 
 }

@@ -1,5 +1,5 @@
 <div class="characters" *ngIf="characterList">
- <div *ngFor="let character of characterList" class="card">
+ <div *ngFor="let character of characterList" class="card" [ngStyle]="{'backgroundColor' : character.status! == 'Alive' ? 'green' : 'red'}">
     <p>{{character.id}}</p>
     <h3>{{character.name}}</h3>
     <img src={{character.image}} alt={{character.name}} class="character-img">

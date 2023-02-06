@@ -7,13 +7,15 @@ import { CharacterComponent } from './pages/character/character.component';
 import { CharacterDetailComponent } from './pages/character-detail/character-detail.component';
 import { ApiService } from './shared/services/api.service';
 import { NavComponent } from './shared/nav/nav.component';
+import { HomeComponent } from './pages/home/home.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     CharacterComponent,
     CharacterDetailComponent,
-    NavComponent
+    NavComponent,
+    HomeComponent
   ],
   imports: [
     BrowserModule,
